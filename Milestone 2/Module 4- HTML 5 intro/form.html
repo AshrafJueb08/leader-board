@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SARTOR FORM</title>
+    <style>
+        form{
+            background-color: rgba(0, 0, 0, 0.586);
+            text-align: center;
+            color: aliceblue;
+        }
+
+        label{
+            display: block;
+            text-align: justify;
+            margin-bottom: 10px ;
+            color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <title > Sartor Order Form </title>
+    <h2> SARTOR ORDER FORM: </h2>
+    <form>
+        <fieldset>
+        <legend> <h2>Customer details:</h2> </legend>
+        <label for="Customer Name"> Name:
+            <input id="name" type="text" placeholder="Your Name Here">
+         </label>
+
+         <label for="Contact Number"> Contact Number: 
+            <input id="phone" type="number" placeholder="Your number here">
+         </label>
+
+         <label for="Customer address"> Address:
+            <input id="Address" type="text" placeholder="Your Address Here">
+         </label>
+        </fieldset>
+         <fieldset>
+            <legend><h2>Order details:</h2></legend>
+            <label for="Solid Hoodie">
+                <input type="checkbox" name="cloth" id="Solid Hoodie">
+               Solid Hoodie
+            </label>
+            <label for="Joggers">
+                <input type="checkbox" name="cloth" id="Joggers">
+                Joggers
+            </label>
+            <label for="Champions Hoodie">
+                <input type="checkbox" name="cloth" id="Champions Hoodie">
+                Champions Hoodie
+            </label>
+            </fieldset>
+            
+            <fieldset >
+            <legend><h2>Delivery Option</h2></legend>
+            <label for="Free pickup">
+                <input type="radio" name="delivery" id="Free pickup">
+               free pickup from office 
+            </label>
+            <label for="Inside Dhaka">
+                <input type="radio" name="delivery" id="Inside Dhaka">
+                Inside Dhaka
+            </label>
+            <label for="Outside Dhaka">
+                <input type="radio" name="delivery" id="Outside Dhaka">
+                Outside Dhaka
+            </label>
+         </fieldset>
+         <fieldset>
+            <legend> Special Instruction </legend>
+            <textarea name="" id="" cols="30"   rows="10"></textarea>
+         </fieldset>
+         <input type="reset" value="Reset">
+         <input type="Submit" value="Submit">
+    </form>
+</body>
+</html>
